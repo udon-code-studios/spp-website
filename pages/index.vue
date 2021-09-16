@@ -11,6 +11,7 @@
 
     <!-- Home Page Content -->
     <div class="max-w-2xl mx-auto py-16 space-y-6 text-gray-400">
+      <!-- Introduction -->
       <p class="text-2xl font-semibold">What is Subpar Programming?</p>
       <p>
         Subpar Programming is a team of inexperienced engineers and developers producing subpar projects, guides, and
@@ -20,6 +21,7 @@
         <a href="https://github.com/subparprogramming" target="_blank" class="hover:underline text-blue-400">GitHub</a>.
       </p>
 
+      <!-- spp-website Technology Stack -->
       <div class="-mx-16 px-16 py-8 mt-8 space-y-6 shadow-md rounded-lg bg-blue-100 text-gray-600">
         <p class="text-2xl font-semibold">Technologies used in this website</p>
 
@@ -48,26 +50,32 @@
           </p>
         </div>
 
-        <div
-          class="
-            flex
-            justify-center
-            items-center
-            py-1
-            rounded-lg
-            border-2 border-gray-900
-            space-x-2
-            hover:bg-gray-900
-            hover:text-gray-400
-            duration-200
-          "
-        >
-          <code>Find the source code for this site on</code>
-          <SvgGitHubLogo class="h-10" />
-          <code>GitHub.</code>
+        <!-- Link to spp-website GitHub Page -->
+        <div>
+          <a href="https://github.com/subparprogramming/spp-website" target="_blank">
+            <div
+              class="
+                flex
+                justify-center
+                items-center
+                py-1
+                rounded-lg
+                border-2 border-gray-900
+                space-x-2
+                hover:bg-gray-900
+                hover:text-gray-400
+                duration-200
+              "
+            >
+              <code>Find the source code for this site on</code>
+              <SvgGitHubLogo class="h-10" />
+              <code>GitHub.</code>
+            </div>
+          </a>
         </div>
       </div>
 
+      <!-- Closing Text and Inspirational Quotes-->
       <p>
         This body of text down here serves no informational or informative purpose. It simply is to create the illusion
         that there is a lot to say about the goings-on at Subpar Programming. In a desparate attempt to make having read
@@ -83,8 +91,9 @@
         There is no 'i' in team "<em class="font-serif">but there is in win.</em>"<br />&emsp;— Michael Jeffrey Jordan
       </p>
       <p class="text-center">
-        "<em class="font-serif">The people who are crazy enough to think they can change the world are the ones who do.</em>"<br />&emsp;—
-        Steven Paul Jobs
+        "<em class="font-serif"
+          >The people who are crazy enough to think they can change the world are the ones who do.</em
+        >"<br />&emsp;— Steven Paul Jobs
       </p>
     </div>
 
