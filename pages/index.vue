@@ -30,9 +30,9 @@
         <!-- Frontend Tools -->
         <hr class="border-2 border-gray-600 rounded-full" />
         <p class="text-2xl font-semibold">Frontend Tools</p>
-        <div class="grid grid-cols-5 gap-y-4">
+        <div class="grid grid-cols-5 gap-y-4 items-center">
           <!-- NuxtJS -->
-          <div class="col-span-2 justify-self-center self-center">
+          <div class="col-span-2 justify-self-center">
             <a href="https://nuxtjs.org" target="_blank">
               <SvgNuxtLogoRect class="h-11 text-black" />
             </a>
@@ -50,7 +50,7 @@
           </div>
 
           <!-- Tailwind CSS-->
-          <div class="col-span-2 justify-self-center self-center">
+          <div class="col-span-2 justify-self-center">
             <a href="https://tailwindcss.com" target="_blank">
               <SvgTailwindLogoRect class="h-7" />
             </a>
@@ -90,10 +90,10 @@
         <!-- Backend Services -->
         <hr class="border-2 border-gray-600 rounded-full" />
         <p class="text-2xl font-semibold">Backend Services</p>
-        <div class="grid grid-cols-5 gap-y-4">
+        <div class="grid grid-cols-5 gap-y-4 items-center">
           <!-- NGINX -->
-          <div class="col-span-2 justify-self-center self-center">
-            <a href="https://nuxtjs.org" target="_blank">
+          <div class="col-span-2 justify-self-center">
+            <a href="https://www.nginx.com" target="_blank">
               <SvgNginxLogoRect class="h-16" />
             </a>
           </div>
@@ -105,8 +105,8 @@
           </div>
 
           <!-- Certbot -->
-          <div class="col-span-2 justify-self-center self-center">
-            <a href="https://nuxtjs.org" target="_blank">
+          <div class="col-span-2 justify-self-center">
+            <a href="https://certbot.eff.org" target="_blank">
               <SvgCertbotLogoRect class="h-10" />
             </a>
           </div>
@@ -118,8 +118,8 @@
           </div>
 
           <!-- Docker -->
-          <div class="col-span-2 justify-self-center self-center">
-            <a href="https://nuxtjs.org" target="_blank">
+          <div class="col-span-2 justify-self-center">
+            <a href="https://www.docker.com" target="_blank">
               <SvgDockerLogoRect class="-mt-4 h-14" />
             </a>
           </div>
@@ -131,8 +131,8 @@
           </div>
 
           <!-- Google Cloud Platform -->
-          <div class="col-span-2 justify-self-center self-center">
-            <a href="https://nuxtjs.org" target="_blank">
+          <div class="col-span-2 justify-self-center">
+            <a href="https://cloud.google.com" target="_blank">
               <SvgGcpLogoRect class="h-14" />
             </a>
           </div>
@@ -147,10 +147,10 @@
         <!-- Version Control System -->
         <hr class="border-2 border-gray-600 rounded-full" />
         <p class="text-2xl font-semibold">Version Control System</p>
-        <div class="grid grid-cols-5 gap-y-4">
+        <div class="grid grid-cols-5 gap-y-4 items-center">
           <!-- Git -->
-          <div class="col-span-2 justify-self-center self-center">
-            <a href="https://nuxtjs.org" target="_blank">
+          <div class="col-span-2 justify-self-center">
+            <a href="https://git-scm.com" target="_blank">
               <SvgGitLogoRect class="h-16" />
             </a>
           </div>
