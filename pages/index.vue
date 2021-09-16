@@ -81,7 +81,7 @@
               "
             >
               <code>Find the source code for this site on</code>
-              <SvgGitHubLogo class="h-10" />
+              <SvgGitHubLogoSquare class="h-10" />
               <code>GitHub.</code>
             </div>
           </a>
