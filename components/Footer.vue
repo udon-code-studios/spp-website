@@ -1,6 +1,14 @@
 <template>
-  <div class="flex justify-center items-center py-8 bg-gray-800 text-gray-400">
-    <p>This is the footer.</p>
+  <div class="flex justify-center items-center py-8 space-x-3 bg-gray-800 text-gray-400">
+    <a href="https://twitter.com/subpar_program" target="_blank"
+      ><SvgTwitterLogoSquare class="h-7 hover:text-gray-200 duration-200"
+    /></a>
+    <a href="https://github.com/subparprogramming" target="_blank"
+      ><SvgGitHubLogoSquare class="h-7 hover:text-gray-200 duration-200"
+    /></a>
+    <a href="mailto:subparprogramming@googlegroups.com" target="_blank"
+      ><SvgMailIconSquare class="h-7 fill-current hover:text-gray-200 duration-200"
+    /></a>
   </div>
 </template>
 
