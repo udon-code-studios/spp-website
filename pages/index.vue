@@ -13,7 +13,7 @@
     <div class="max-w-2xl mx-auto py-16 space-y-6 text-gray-400">
       <!-- Introduction -->
       <p class="text-2xl font-semibold">What is Subpar Programming?</p>
-      <p>
+      <p class="pb-8">
         Subpar Programming is a team of inexperienced engineers and developers producing subpar projects, guides, and
         blog posts in hopes of one day producing something which could be deemed not-subpar. Learn more about the team
         on the <a href="/people" class="hover:underline text-blue-400">People</a> page, or check out some of the subpar
@@ -22,7 +22,7 @@
       </p>
 
       <!-- spp-website Technology Stack -->
-      <div class="-mx-16 px-16 py-8 mt-8 space-y-6 shadow-md rounded-lg bg-blue-100 text-gray-600">
+      <div class="-mx-16 px-16 py-8 space-y-6 shadow-md rounded-lg bg-blue-100 text-gray-600">
         <p class="text-2xl text-center font-bold font-serif text-gray-900">
           What technologies were used to create this website?
         </p>
@@ -164,7 +164,7 @@
       </div>
 
       <!-- Closing Text and Inspirational Quotes-->
-      <p>
+      <p class="pt-8">
         This body of text down here serves no informational or informative purpose. It simply is to create the illusion
         that there is a lot to say about the goings-on at Subpar Programming. In a flailing attempt to make having read
         this paragraph worthwhile, let us share with you a few inspirational quotes:
