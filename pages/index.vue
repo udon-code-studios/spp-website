@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen bg-gray-900">
+  <div class="min-h-screen bg-gray-900 text-gray-400">
     <!-- Subpar Programming Banner -->
-    <div class="flex justify-center items-center py-16 gap-6 text-4xl font-extrabold font-mono text-gray-400">
+    <div class="flex justify-center items-center py-16 gap-6 text-4xl font-extrabold font-mono ">
       <img src="/spooky_light_500x500.png" class="h-12 rounded-2xl" />
       subpar programming
     </div>
@@ -30,14 +30,11 @@
           <p>
             <a href="https://nuxtjs.org" target="_blank" class="hover:underline text-blue-500">NuxtJS</a>
             - a free and open source web application framework based on
-            <a href="https://vuejs.org" target="_blank" class="hover:underline text-blue-500">Vue.js</a>
-            ,
-            <a href="https://nodejs.org" target="_blank" class="hover:underline text-blue-500">Node.js</a>
-            ,
+            <a href="https://vuejs.org" target="_blank" class="hover:underline text-blue-500">Vue.js</a>,
+            <a href="https://nodejs.org" target="_blank" class="hover:underline text-blue-500">Node.js</a>,
             <a href="https://webpack.js.org" target="_blank" class="hover:underline text-blue-500">Webpack</a>
             and
-            <a href="https://babeljs.io" target="_blank" class="hover:underline text-blue-500">Babel.js</a>
-            .
+            <a href="https://babeljs.io" target="_blank" class="hover:underline text-blue-500">Babel.js</a>.
           </p>
         </div>
 
@@ -81,7 +78,7 @@
     </div>
 
     <!-- Page Footer -->
-    <Footer />
+    <Footer class="relative bottom-0" />
   </div>
 </template>
 
