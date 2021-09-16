@@ -23,31 +23,44 @@
 
       <!-- spp-website Technology Stack -->
       <div class="-mx-16 px-16 py-8 mt-8 space-y-6 shadow-md rounded-lg bg-blue-100 text-gray-600">
-        <p class="text-2xl font-semibold">Technologies used in this website</p>
+        <p class="text-2xl text-center font-bold font-serif text-gray-900">
+          What technologies were used to create this website?
+        </p>
 
-        <div class="flex space-x-6">
-          <a href="https://nuxtjs.org" target="_blank">
-            <SvgNuxtLogo class="-mb-3 h-11 text-black" />
-          </a>
-          <p>
-            <a href="https://nuxtjs.org" target="_blank" class="hover:underline text-blue-500">NuxtJS</a>
-            - a free and open source web application framework based on
-            <a href="https://vuejs.org" target="_blank" class="hover:underline text-blue-500">Vue.js</a>,
-            <a href="https://nodejs.org" target="_blank" class="hover:underline text-blue-500">Node.js</a>,
-            <a href="https://webpack.js.org" target="_blank" class="hover:underline text-blue-500">Webpack</a>
-            and
-            <a href="https://babeljs.io" target="_blank" class="hover:underline text-blue-500">Babel.js</a>.
-          </p>
-        </div>
+        <!-- Frontend Tools -->
+        <hr class="border-2 border-gray-600 rounded-full" />
+        <p class="text-2xl font-semibold">Frontend Tools</p>
+        <div class="grid grid-cols-5 gap-y-4">
+          <!-- NuxtJS -->
+          <div class="col-span-2 justify-self-center self-center">
+            <a href="https://nuxtjs.org" target="_blank">
+              <SvgNuxtLogoRect class="h-11 text-black" />
+            </a>
+          </div>
+          <div class="col-span-3">
+            <p>
+              <a href="https://nuxtjs.org" target="_blank" class="hover:underline text-blue-500">NuxtJS</a>
+              - a free and open source web application framework based on
+              <a href="https://vuejs.org" target="_blank" class="hover:underline text-blue-500">Vue.js</a>,
+              <a href="https://nodejs.org" target="_blank" class="hover:underline text-blue-500">Node.js</a>,
+              <a href="https://webpack.js.org" target="_blank" class="hover:underline text-blue-500">Webpack</a>
+              and
+              <a href="https://babeljs.io" target="_blank" class="hover:underline text-blue-500">Babel.js</a>.
+            </p>
+          </div>
 
-        <div class="flex space-x-6">
-          <a href="https://tailwindcss.com" target="_blank">
-            <SvgTailwindLogo class="h-7" />
-          </a>
-          <p>
-            <a href="https://tailwindcss.com" target="_blank" class="hover:underline text-blue-500">Tailwind CSS</a>
-            - "<em>A utility-first CSS framework for rapidly building custom user interfaces.</em>"
-          </p>
+          <!-- Tailwind CSS-->
+          <div class="col-span-2 justify-self-center self-center">
+            <a href="https://tailwindcss.com" target="_blank">
+              <SvgTailwindLogoRect class="h-7" />
+            </a>
+          </div>
+          <div class="col-span-3">
+            <p>
+              <a href="https://tailwindcss.com" target="_blank" class="hover:underline text-blue-500">Tailwind CSS</a>
+              - "<em>A utility-first CSS framework for rapidly building custom user interfaces.</em>"
+            </p>
+          </div>
         </div>
 
         <!-- Link to spp-website GitHub Page -->
@@ -59,8 +72,8 @@
                 justify-center
                 items-center
                 py-1
-                rounded-lg
-                border-2 border-gray-900
+                rounded-xl
+                border-2 border-blue-100
                 space-x-2
                 hover:bg-gray-900
                 hover:text-gray-400
@@ -73,12 +86,87 @@
             </div>
           </a>
         </div>
+
+        <!-- Backend Services -->
+        <hr class="border-2 border-gray-600 rounded-full" />
+        <p class="text-2xl font-semibold">Backend Services</p>
+        <div class="grid grid-cols-5 gap-y-4">
+          <!-- NGINX -->
+          <div class="col-span-2 justify-self-center self-center">
+            <a href="https://nuxtjs.org" target="_blank">
+              <SvgNginxLogoRect class="h-16" />
+            </a>
+          </div>
+          <div class="col-span-3">
+            <p>
+              Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of
+              text. Lots of text.
+            </p>
+          </div>
+
+          <!-- Certbot -->
+          <div class="col-span-2 justify-self-center self-center">
+            <a href="https://nuxtjs.org" target="_blank">
+              <SvgCertbotLogoRect class="h-10" />
+            </a>
+          </div>
+          <div class="col-span-3">
+            <p>
+              Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of
+              text. Lots of text.
+            </p>
+          </div>
+
+          <!-- Docker -->
+          <div class="col-span-2 justify-self-center self-center">
+            <a href="https://nuxtjs.org" target="_blank">
+              <SvgDockerLogoRect class="-mt-4 h-14" />
+            </a>
+          </div>
+          <div class="col-span-3">
+            <p>
+              Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of
+              text. Lots of text.
+            </p>
+          </div>
+
+          <!-- Google Cloud Platform -->
+          <div class="col-span-2 justify-self-center self-center">
+            <a href="https://nuxtjs.org" target="_blank">
+              <SvgGcpLogoRect class="h-14" />
+            </a>
+          </div>
+          <div class="col-span-3">
+            <p>
+              Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of
+              text. Lots of text.
+            </p>
+          </div>
+        </div>
+
+        <!-- Version Control System -->
+        <hr class="border-2 border-gray-600 rounded-full" />
+        <p class="text-2xl font-semibold">Version Control System</p>
+        <div class="grid grid-cols-5 gap-y-4">
+          <!-- Git -->
+          <div class="col-span-2 justify-self-center self-center">
+            <a href="https://nuxtjs.org" target="_blank">
+              <SvgGitLogoRect class="h-16" />
+            </a>
+          </div>
+          <div class="col-span-3">
+            <p>
+              Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of
+              text. Lots of text.
+            </p>
+          </div>
+        </div>
       </div>
 
       <!-- Closing Text and Inspirational Quotes-->
       <p>
         This body of text down here serves no informational or informative purpose. It simply is to create the illusion
-        that there is a lot to say about the goings-on at Subpar Programming. In a desparate attempt to make having read
+        that there is a lot to say about the goings-on at Subpar Programming. In a flailing attempt to make having read
         this paragraph worthwhile, let us share with you a few inspirational quotes:
       </p>
       <p class="text-center">
@@ -97,7 +185,7 @@
       </p>
     </div>
 
-    <!-- Page Footer -->
+    <!-- Page Footer TODO: FIX FLOATING FOOTER -->
     <Footer class="relative bottom-0" />
   </div>
 </template>
