@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-900 text-gray-400">
+  <div class="relative min-h-screen bg-gray-900 text-gray-400">
     <!-- Subpar Programming Banner -->
     <div class="flex justify-center items-center py-16 gap-6 text-4xl font-extrabold font-mono">
       <img src="/spooky_light_500x500.png" class="h-12 rounded-2xl" />
@@ -58,7 +58,8 @@
           <div class="col-span-3">
             <p>
               <a href="https://tailwindcss.com" target="_blank" class="hover:underline text-blue-500">Tailwind CSS</a>
-              - "<em>A utility-first CSS framework for rapidly building custom user interfaces.</em>"
+              - "<em>A utility-first CSS framework for rapidly building custom user interfaces.</em>" It enables
+              developers to style webpages without ever needing to leave the HTML.
             </p>
           </div>
         </div>
@@ -99,8 +100,9 @@
           </div>
           <div class="col-span-3">
             <p>
-              Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of
-              text. Lots of text.
+              For this site,
+              <a href="https://www.nginx.com" target="_blank" class="hover:underline text-blue-500">NGINX</a> is used as
+              the web server and SSL handshake provider. It serves a static site generated from the NuxtJS framework.
             </p>
           </div>
 
@@ -112,8 +114,10 @@
           </div>
           <div class="col-span-3">
             <p>
-              Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of
-              text. Lots of text.
+              <a href="https://certbot.eff.org" target="_blank" class="hover:underline text-blue-500">Certbot</a> uses
+              <a href="https://letsencrypt.org" target="_blank" class="hover:underline text-blue-500">Let's Encrypt</a>
+              SSL certificates to enable HTTPS connections. It automatically checks to renew these certificates every 12
+              hours.
             </p>
           </div>
 
@@ -125,11 +129,41 @@
           </div>
           <div class="col-span-3">
             <p>
-              Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of
-              text. Lots of text.
+              The NGINX and Certbot hosting services described above are deployed as a multi-container application using
+              <a href="https://docs.docker.com/compose" target="_blank" class="hover:underline text-blue-500"
+                >Docker Compose</a
+              >. This enables the site to quickly move between host providers with minimal environment setup and
+              configuration.
             </p>
           </div>
+        </div>
 
+        <!-- Link to https-docker GitHub Page -->
+        <div>
+          <a href="https://github.com/subparprogramming/https-docker" target="_blank">
+            <div
+              class="
+                flex
+                justify-center
+                items-center
+                py-1
+                rounded-xl
+                border-2 border-blue-100
+                space-x-2
+                hover:bg-gray-900
+                hover:text-gray-400
+                duration-200
+              "
+            >
+              <code>See the containerized HTTPS server configuration process on</code>
+              <SvgGitHubLogoSquare class="h-10" />
+              <code>GitHub.</code>
+            </div>
+          </a>
+        </div>
+
+        <!-- Resume Backend Services -->
+        <div class="grid grid-cols-5 gap-y-4 items-center">
           <!-- Google Cloud Platform -->
           <div class="col-span-2 justify-self-center">
             <a href="https://cloud.google.com" target="_blank">
@@ -138,8 +172,11 @@
           </div>
           <div class="col-span-3">
             <p>
-              Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of
-              text. Lots of text.
+              The containerized <u>subparprogramming.org</u> site is deployed on a
+              <a href="https://cloud.google.com" target="_blank" class="hover:underline text-blue-500"
+                >Google Cloud Platform</a
+              >
+              (GCP) Compute Engine instance.
             </p>
           </div>
         </div>
@@ -156,8 +193,13 @@
           </div>
           <div class="col-span-3">
             <p>
-              Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of text. Lots of
-              text. Lots of text.
+              Linus Torvald's world-renowned
+              <a href="https://git-scm.com" target="_blank" class="hover:underline text-blue-500">Git</a> software is a
+              free and open source distributed version control system. The master branch for all Subpar Programming
+              projects, including this website are hosted on Microsoft
+              <a href="https://github.com/subparprogramming" target="_blank" class="hover:underline text-blue-500"
+                >GitHub</a
+              >.
             </p>
           </div>
         </div>
@@ -185,8 +227,10 @@
       </p>
     </div>
 
+    <div class="p-12"></div>
+
     <!-- Page Footer TODO: FIX FLOATING FOOTER -->
-    <Footer class="relative bottom-0" />
+    <Footer class="absolute bottom-0 w-full" />
   </div>
 </template>
 
