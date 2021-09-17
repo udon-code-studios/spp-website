@@ -14,7 +14,7 @@
       <!-- Introduction -->
       <p class="text-2xl font-semibold">What is Subpar Programming?</p>
       <p class="pb-8">
-        Subpar Programming is a team of inexperienced engineers and developers producing subpar projects, guides, and
+        Subpar Programming (SPP) is a team of inexperienced engineers and developers producing subpar projects, guides, and
         blog posts in hopes of one day producing something which could be deemed not-subpar. Learn more about the team
         on the <a href="/people" class="hover:underline text-blue-400">People</a> page, or check out some of the subpar
         source code hosted on our
