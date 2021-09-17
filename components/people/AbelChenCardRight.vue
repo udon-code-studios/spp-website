@@ -11,7 +11,7 @@
         <strong>Resume/CV:</strong> <a href="/resume-chen-abel-2021-09-17.pdf" target="_blank"><u>chen-abel-2021-09-17.pdf</u></a>
       </div>
       <!-- Quote -->
-      <div class="italic font-serif">"I am so f*cking good at taking dumps in people's faces."</div>
+      <div class="italic font-serif">"I'm so f*cking good at taking dumps in people's faces."</div>
       <!-- Links -->
       <div class="flex pl-1 space-x-2 justify-end items-center">
         <a href="https://www.linkedin.com/in/abel-chen-75172a1b7" target="_blank">
