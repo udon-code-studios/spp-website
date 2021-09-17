@@ -13,7 +13,7 @@
       <div><strong>Role:</strong> Professional Pooper</div>
       <!-- Resume -->
       <div>
-        <strong>Resume/CV:</strong> <a href="/chen-abel-2021-09-17.pdf" target="_blank"><u>chen-abel-2021-09-17.pdf</u></a>
+        <strong>Resume/CV:</strong> <a href="/resume-chen-abel-2021-09-17.pdf" target="_blank"><u>chen-abel-2021-09-17.pdf</u></a>
       </div>
       <!-- Quote -->
       <div class="italic font-serif">"YEET! YEET! YEET! YEET! YEET! YEET!"</div>

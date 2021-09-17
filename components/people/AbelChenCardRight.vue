@@ -8,7 +8,7 @@
       <div><strong>Role:</strong> Developer / Writer</div>
       <!-- Resume -->
       <div>
-        <strong>Resume/CV:</strong> <a href="/chen-abel-2021-09-17.pdf" target="_blank"><u>chen-abel-2021-09-17.pdf</u></a>
+        <strong>Resume/CV:</strong> <a href="/resume-chen-abel-2021-09-17.pdf" target="_blank"><u>chen-abel-2021-09-17.pdf</u></a>
       </div>
       <!-- Quote -->
       <div class="italic font-serif">"I am so f*cking good at taking dumps in people's faces."</div>
