@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-5">
     <div class="col-span-3 p-4 space-y-2 text-right">
-      <div class="text-2xl font-semibold">Leo Battalora</div>
+      <div class="text-2xl font-semibold">Abel Chen</div>
       <div><strong>Role:</strong> Developer / Writer</div>
       <!-- TODO: attach pdf and create directories for people headshots and resumes -->
       <div>
