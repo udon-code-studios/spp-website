@@ -185,7 +185,7 @@
 
         <!-- Version Control System -->
         <hr class="border-2 border-gray-700 rounded-full" />
-        <p class="text-2xl font-semibold">Version Control System</p>
+        <p class="text-2xl font-semibold">Version Control</p>
         <div class="grid grid-cols-5 gap-y-4 items-center">
           <!-- Git -->
           <div class="col-span-2 justify-self-center">
