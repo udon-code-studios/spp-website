@@ -2,7 +2,7 @@
   <div class="grid grid-cols-5">
     <!-- Profile Image -->
     <div class="col-span-2 p-4 justify-self-center self-center">
-      <img src="/abel_boy.jpg" class="w-64 rounded-3xl" />
+      <img src="~/assets/people/abel_boy.jpg" class="w-64 rounded-3xl" />
     </div>
 
     <!-- Profile Content -->
@@ -13,7 +13,7 @@
       <div><strong>Role:</strong> Professional Pooper</div>
       <!-- Resume -->
       <div>
-        <strong>Resume/CV:</strong> <a href="https://google.com"><u>abel-chen-2021-09-16.pdf</u></a>
+        <strong>Resume/CV:</strong> <a href="/chen-abel-2021-09-17.pdf" target="_blank"><u>chen-abel-2021-09-17.pdf</u></a>
       </div>
       <!-- Quote -->
       <div class="italic font-serif">"YEET! YEET! YEET! YEET! YEET! YEET!"</div>

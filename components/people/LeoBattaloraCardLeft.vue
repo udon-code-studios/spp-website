@@ -2,7 +2,7 @@
   <div class="grid grid-cols-5">
     <!-- Profile Image -->
     <div class="col-span-2 p-4 justify-self-center self-center">
-      <img src="/leo_battalora_1000x1000.jpg" class="w-64 rounded-3xl" />
+      <img src="~/assets/people/leo_battalora_1000x1000.jpg" class="w-64 rounded-3xl" />
     </div>
 
     <!-- Profile Content -->
