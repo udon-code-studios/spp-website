@@ -7,7 +7,7 @@
       ><SvgGitHubLogoSquare class="h-7 hover:text-gray-200 duration-200"
     /></a>
     <a href="mailto:subparprogramming@googlegroups.com" target="_blank"
-      ><SvgMailIconSquare class="h-7 fill-current hover:text-gray-200 duration-200"
+      ><SvgMailIcon class="h-7 hover:text-gray-200 duration-200"
     /></a>
   </div>
 </template>
