@@ -10,7 +10,7 @@
       <!-- Name -->
       <div class="text-2xl font-semibold">Leo Battalora</div>
       <!-- Role -->
-      <div><strong>Role:</strong> CEO / Founder / Developer</div>
+      <div><strong>Role:</strong> CEO / Developer</div>
       <!-- Resume -->
       <div>
         <strong>Resume/CV:</strong> <a href="https://google.com"><u>battalora-leo-2021-09-16.pdf</u></a>
