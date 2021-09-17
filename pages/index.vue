@@ -69,10 +69,11 @@
           <a href="https://github.com/subparprogramming/spp-website" target="_blank">
             <div
               class="
-                flex
+                flex flex-wrap
                 justify-center
                 items-center
-                py-1
+                text-center
+                p-2
                 rounded-xl
                 border-2 border-blue-100
                 space-x-2
@@ -143,10 +144,11 @@
           <a href="https://github.com/subparprogramming/https-docker" target="_blank">
             <div
               class="
-                flex
+                flex flex-wrap
                 justify-center
                 items-center
-                py-1
+                text-center
+                p-2
                 rounded-xl
                 border-2 border-blue-100
                 space-x-2
@@ -227,10 +229,9 @@
       </p>
     </div>
 
+    <!-- Page Footer -->
     <div class="p-12"></div>
-
-    <!-- Page Footer TODO: FIX FLOATING FOOTER -->
-    <Footer class="absolute bottom-0 w-full" />
+    <Footer />
   </div>
 </template>
 
