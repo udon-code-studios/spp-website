@@ -13,7 +13,7 @@
       <div><strong>Role:</strong> CEO / Developer</div>
       <!-- Resume -->
       <div>
-        <strong>Resume/CV:</strong> <a href="https://google.com"><u>battalora-leo-2021-09-16.pdf</u></a>
+        <strong>Resume/CV:</strong> <a href="/resume-battalora-leo-2021-09-17.pdf" target="_blank"><u>battalora-leo-2021-09-17.pdf</u></a>
       </div>
       <!-- Quote -->
       <div class="italic font-serif">"I hope to one day be decent at this whole software development thing."</div>
