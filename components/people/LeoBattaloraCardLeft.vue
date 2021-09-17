@@ -16,7 +16,7 @@
         <strong>Resume/CV:</strong> <a href="/resume-battalora-leo-2021-09-17.pdf" target="_blank"><u>battalora-leo-2021-09-17.pdf</u></a>
       </div>
       <!-- Quote -->
-      <div class="italic font-serif">"I hope to one day be decent at this whole software development thing."</div>
+      <div class="italic font-serif">"I hope to be decent at this whole software development thing one day."</div>
       <!-- Links -->
       <div class="flex pl-1 space-x-2 items-center">
         <a href="https://www.linkedin.com/in/leo6" target="_blank">

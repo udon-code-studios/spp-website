@@ -22,13 +22,13 @@
       </p>
 
       <!-- spp-website Technology Stack -->
-      <div class="-mx-16 px-16 py-8 space-y-6 shadow-md rounded-lg bg-blue-100 text-gray-600">
+      <div class="-mx-16 px-16 py-8 space-y-6 shadow-md rounded-lg bg-blue-100 text-gray-700">
         <p class="text-2xl text-center font-bold font-serif text-gray-900">
           What technologies were used to create this website?
         </p>
 
         <!-- Frontend Tools -->
-        <hr class="border-2 border-gray-600 rounded-full" />
+        <hr class="border-2 border-gray-700 rounded-full" />
         <p class="text-2xl font-semibold">Frontend Tools</p>
         <div class="grid grid-cols-5 gap-y-4 items-center">
           <!-- NuxtJS -->
@@ -90,7 +90,7 @@
         </div>
 
         <!-- Backend Services -->
-        <hr class="border-2 border-gray-600 rounded-full" />
+        <hr class="border-2 border-gray-700 rounded-full" />
         <p class="text-2xl font-semibold">Backend Services</p>
         <div class="grid grid-cols-5 gap-y-4 items-center">
           <!-- NGINX -->
@@ -184,7 +184,7 @@
         </div>
 
         <!-- Version Control System -->
-        <hr class="border-2 border-gray-600 rounded-full" />
+        <hr class="border-2 border-gray-700 rounded-full" />
         <p class="text-2xl font-semibold">Version Control System</p>
         <div class="grid grid-cols-5 gap-y-4 items-center">
           <!-- Git -->
