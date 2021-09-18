@@ -39,5 +39,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  server: {
+    host: '0' // assign local IP address to nuxt app, enables deployment from a docker container
   }
 }

@@ -1,4 +1,4 @@
-# spp-website
+# Subpar Programming (SPP) Website
 
 ## Build Setup
 
@@ -15,6 +15,19 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+```
+
+## Production Deployment with Docker
+
+```bash
+# build image from Dockerfile
+$ docker build -t nuxt-app .
+
+# start container
+$ docker run -d --rm -p 3000:3000 --name spp-website nuxt-app
+
+# stop container
+$ docker stop spp-website
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
