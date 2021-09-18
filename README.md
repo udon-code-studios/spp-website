@@ -1,82 +1,49 @@
-# Subpar Programming (SPP) Website
+# HTTPS with automatic certificate renewal
 
-## Build Setup
+This multi-container app serves an HTTPS website using NGINX with the `./html` directory as its web root. Certbot is used to automate the certificate renewall process with [Let's Encrypt CA](https://letsencrypt.org/).
 
-```bash
-# install dependencies
-$ npm install
+## Initial Setup
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+1. Map the target domain name to the IP address of website host (e.g. using an A record in Google Domains or Freenom).
+2. After cloning this repository, launch an NGINX instance to handle the initial certbot challenge process using the `initial-setup.conf` configuration file.
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+```
+$ sudo docker run -it --rm --name initial_setup_nginx -d \
+    -v $(pwd)/initial-setup.conf:/etc/nginx/conf.d/app.conf \
+    -v $(pwd)/etc/letsencrypt:/etc/letsencrypt \
+    -v $(pwd)/certbot/www:/var/www/certbot \
+    -p 80:80 nginx:latest
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+3. Obtain a new certificate by using the `certonly --webroot` command. When prompted for the webroot, input: `/var/www/certbot`
 
-## Production Deployment with Docker
-
-```bash
-# build image from Dockerfile
-$ docker build -t nuxt-app .
-
-# start container
-$ docker run -d --rm -p 3000:3000 --name spp-website nuxt-app
-
-# stop container
-$ docker stop spp-website
+```
+$ sudo docker run -it --rm --name initial_setup_certbot \
+    -v $(pwd)/etc/letsencrypt:/etc/letsencrypt \
+    -v $(pwd)/certbot/www:/var/www/certbot \
+    certbot/certbot:latest certonly --webroot
 ```
 
-## Special Directories
+4. Kill the NGINX instance used for initial configuration.
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+```
+$ sudo docker kill initial_setup_nginx
+```
 
-### `assets`
+## Start HTTPS web server
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+Once the key and certificate is obtained, the HTTPS web server can be configured and launched.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+Replace each instance of "subparprogramming.org" in `./etc/nginx/conf.d/app.conf` with the target domain name, place website files to host in `./html`, then launch the HTTPS web server using the following command:
 
-### `components`
+```
+$ sudo docker-compose up -d
+```
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+## Stop HTTPS web server
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+Stop the HTTPS web server using the following command:
 
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+```
+$ sudo docker-compose down
+```

@@ -1,0 +1,41 @@
+# file: docker-compose.yml
+
+version: "3"
+
+services:
+  # serves aweb app from nuxt-app:3000 over HTTPS using certbot challenge files from ./certbot/www
+  nginx:
+    image: nginx:1.20
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./etc/nginx/conf.d:/etc/nginx/conf.d  # nginx configurations
+      - ./html:/usr/share/nginx/html          # website files to serve
+      - ./etc/letsencrypt:/etc/letsencrypt    # letsencrypt certificates
+      - ./certbot/www:/var/www/certbot        # certbot challenge files to serve
+    # reload nginx every 6 hours in case of updated certificates or challenges
+    entrypoint: /bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g "daemon off;"'
+
+  # Let's Encrypt CA client to automatically renew HTTPS certificates
+  certbot:
+    image: certbot/certbot:v1.19.0
+    restart: unless-stopped
+    volumes:
+      - ./etc/letsencrypt:/etc/letsencrypt    # letsencrypt certificates
+      - ./certbot/www:/var/www/certbot        # certbot challenge files to serve
+    # attempt to renew certificates every 12 hours
+    entrypoint: /bin/sh -c 'while :; do certbot renew; sleep 12h & wait $${!}; done;'
+
+  #
+  nuxt-app:
+    image: node:14
+    restart: unless-stopped
+    volumes:
+      - ./nuxt-app:/app
+    working_dir: /app
+    # installs dependencies, builds app, then launches server
+    entrypoint: /bin/sh -c 'npm install; npm run build; npm run start'
+#
+# end of file: docker-compose.yml
