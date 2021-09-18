@@ -17,6 +17,8 @@ $ npm run start
 $ npm run generate
 ```
 
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+
 ## Production Deployment with Docker
 
 ```bash
@@ -29,8 +31,6 @@ $ docker run -d --rm -p 3000:3000 --name spp-website nuxt-app
 # stop container
 $ docker stop spp-website
 ```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
 ## Special Directories
 
