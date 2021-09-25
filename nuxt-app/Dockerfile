@@ -18,4 +18,5 @@ RUN ["npm", "run", "build"]
 EXPOSE 3000
 
 # launch server
+# for dev server use: CMD ["npm", "run", "dev"]
 CMD ["npm", "run", "start"]
