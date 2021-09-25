@@ -4,7 +4,7 @@ This multi-container app serves a server-side rendered HTTPS website using NGINX
 
 The website should be 😅 live here: [subparprogramming.org](https://subparprogramming.org)
 
-## `nuxt-app/`
+## [`nuxt-app/`](nuxt-app)
 
 The nuxt-app/ directory contains the source code for the NuxtJS application. From this directory, a development server can be launched with:
 ```
@@ -13,7 +13,7 @@ $ npm run dev
 ```
 A Dockerfile is also supplied in this directory for containerized development and/or deployment.
 
-## `https-config.md`
+## [`https-config.md`](https-config.md)
 
 This file contains instructions for initial HTTPS server configuration.
 
@@ -29,7 +29,7 @@ Stop the web server using the following command:
 $ sudo docker-compose down
 ```
 
-## `docker-compose.yml`
+## [`docker-compose.yml`](docker-compose.yml)
 
 This file defines the services that make up the spp-website app. 
 
