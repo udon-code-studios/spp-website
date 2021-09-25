@@ -4,8 +4,7 @@
     <NuxtLink to="/projects" class="p-4 rounded-xl hover:bg-gray-400 hover:text-gray-800 duration-200">
       Projects
     </NuxtLink>
-    <NuxtLink to="/guides" class="p-4 rounded-xl hover:bg-gray-400 hover:text-gray-800 duration-200">Guides</NuxtLink>
-    <NuxtLink to="/blog" class="p-4 rounded-xl hover:bg-gray-400 hover:text-gray-800 duration-200">Blog</NuxtLink>
+    <NuxtLink to="/blog" class="p-4 rounded-xl hover:bg-gray-400 hover:text-gray-800 duration-200"> Blog </NuxtLink>
     <NuxtLink to="/people" class="p-4 rounded-xl hover:bg-gray-400 hover:text-gray-800 duration-200">People</NuxtLink>
   </div>
 </template>
