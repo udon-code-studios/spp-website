@@ -11,12 +11,15 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-# Build app for production
-RUN ["npm", "run", "build"]
+
+
 
 # Expose port 3000
 EXPOSE 3000
 
-# launch server
-# for dev server use: CMD ["npm", "run", "dev"]
-CMD ["npm", "run", "start"]
+# Start development server
+#   NOTE: For a production build, comment out the next line and uncomment the 
+#         two following lines.
+CMD ["npm", "run", "dev"]
+#RUN ["npm", "run", "build"] # Build app for production
+#CMD ["npm", "run", "start"] # Launch server
