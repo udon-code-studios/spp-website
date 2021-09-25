@@ -103,7 +103,8 @@
             <p>
               For this site,
               <a href="https://www.nginx.com" target="_blank" class="hover:underline text-blue-500">NGINX</a> is used as
-              the web server and SSL handshake provider. It serves a static site generated from the NuxtJS framework.
+              a reverse proxy server and SSL handshake provider. It serves the Nuxt app with Server-Side Rendering
+              (SSR).
             </p>
           </div>
 
@@ -130,17 +131,13 @@
           </div>
           <div class="col-span-3">
             <p>
-              The NGINX and Certbot hosting services described above are deployed as a multi-container application using
-              <a href="https://docs.docker.com/compose" target="_blank" class="hover:underline text-blue-500"
-                >Docker Compose</a
-              >. This enables the site to quickly move between host providers with minimal environment setup and
-              configuration.
+              The Nuxt server, as well as the NGINX and Certbot hosting services described above, are deployed as a
+              multi-container application using
+              <a href="https://docs.docker.com/compose" target="_blank" class="hover:underline text-blue-500">
+                Docker Compose</a
+              >. This enables the site to quickly move between hosts with minimal environment setup and configuration.
             </p>
           </div>
-        </div>
-
-        <!-- Backend Services -->
-        <div class="grid grid-cols-5 gap-y-4 items-center">
           <!-- Google Cloud Platform -->
           <div class="col-span-2 justify-self-center">
             <a href="https://cloud.google.com" target="_blank">
@@ -184,9 +181,9 @@
 
       <!-- Closing Text and Inspirational Quotes-->
       <p class="pt-8">
-        This body of text down here serves no informational or informative purpose. It simply is to create the illusion
-        that there is a lot to say about the goings-on at Subpar Programming. In a flailing attempt to make having read
-        this paragraph worthwhile, let us share with you a few inspirational quotes:
+        This body of text down here serves no informative purpose. It simply is to create the illusion that there is a
+        lot to say about the goings-on at SPP. In a flailing attempt to make having read this paragraph worthwhile, let
+        us share with you a few inspirational quotes:
       </p>
       <p class="text-center">
         "<em class="font-serif"
