@@ -14,10 +14,10 @@
       <!-- Introduction -->
       <p class="text-2xl font-semibold">What is Subpar Programming?</p>
       <p class="pb-8">
-        Subpar Programming (SPP) is a team of inexperienced engineers and developers producing subpar projects, guides, and
-        blog posts in hopes of one day producing something which could be deemed not-subpar. Learn more about the team
-        on the <a href="/people" class="hover:underline text-blue-400">People</a> page, or check out some of the subpar
-        source code hosted on our
+        Subpar Programming (SPP) is a team of inexperienced engineers and developers producing subpar projects, guides,
+        and blog posts in hopes of one day producing something which could be deemed not-subpar. Learn more about the
+        team on the <a href="/people" class="hover:underline text-blue-400">People</a> page, or check out some of the
+        subpar source code hosted on our
         <a href="https://github.com/subparprogramming" target="_blank" class="hover:underline text-blue-400">GitHub</a>.
       </p>
 
@@ -34,7 +34,7 @@
           <!-- NuxtJS -->
           <div class="col-span-2 justify-self-center">
             <a href="https://nuxtjs.org" target="_blank">
-              <SvgNuxtLogoRect class="h-11 text-black" />
+              <img src="~/assets/home/nuxtLogoRect.svg" alt="NuxtJS Logo" class="h-11 text-black" />
             </a>
           </div>
           <div class="col-span-3">
@@ -52,7 +52,7 @@
           <!-- Tailwind CSS-->
           <div class="col-span-2 justify-self-center">
             <a href="https://tailwindcss.com" target="_blank">
-              <SvgTailwindLogoRect class="h-7" />
+              <img src="~/assets/home/tailwindLogoRect.svg" alt="Tailwind CSS Logo" class="h-7" />
             </a>
           </div>
           <div class="col-span-3">
@@ -83,7 +83,7 @@
               "
             >
               <code>Find the source code for this site on</code>
-              <SvgGitHubLogoSquare class="h-10" />
+              <IconsGithub class="h-10" />
               <code>GitHub.</code>
             </div>
           </a>
@@ -96,7 +96,7 @@
           <!-- NGINX -->
           <div class="col-span-2 justify-self-center">
             <a href="https://www.nginx.com" target="_blank">
-              <SvgNginxLogoRect class="h-16" />
+              <img src="~/assets/home/nginxLogoRect.svg" alt="Nginx Logo" class="h-16" />
             </a>
           </div>
           <div class="col-span-3">
@@ -110,7 +110,7 @@
           <!-- Certbot -->
           <div class="col-span-2 justify-self-center">
             <a href="https://certbot.eff.org" target="_blank">
-              <SvgCertbotLogoRect class="h-10" />
+              <img src="~/assets/home/certbotLogoRect.svg" alt="Certbot Logo" class="h-10" />
             </a>
           </div>
           <div class="col-span-3">
@@ -125,7 +125,7 @@
           <!-- Docker -->
           <div class="col-span-2 justify-self-center">
             <a href="https://www.docker.com" target="_blank">
-              <SvgDockerLogoRect class="-mt-4 h-14" />
+              <img src="~/assets/home/dockerLogoRect.svg" alt="Docker Logo" class="-mt-4 h-14" />
             </a>
           </div>
           <div class="col-span-3">
@@ -139,37 +139,12 @@
           </div>
         </div>
 
-        <!-- Link to https-docker GitHub Page -->
-        <div>
-          <a href="https://github.com/subparprogramming/https-docker" target="_blank">
-            <div
-              class="
-                flex flex-wrap
-                justify-center
-                items-center
-                text-center
-                p-2
-                rounded-xl
-                border-2 border-blue-100
-                space-x-2
-                hover:bg-gray-900
-                hover:text-gray-400
-                duration-200
-              "
-            >
-              <code>See the containerized HTTPS server configuration process on</code>
-              <SvgGitHubLogoSquare class="h-10" />
-              <code>GitHub.</code>
-            </div>
-          </a>
-        </div>
-
-        <!-- Resume Backend Services -->
+        <!-- Backend Services -->
         <div class="grid grid-cols-5 gap-y-4 items-center">
           <!-- Google Cloud Platform -->
           <div class="col-span-2 justify-self-center">
             <a href="https://cloud.google.com" target="_blank">
-              <SvgGcpLogoRect class="h-14" />
+              <img src="~/assets/home/gcpLogoRect.svg" alt="GCP Logo" class="h-14" />
             </a>
           </div>
           <div class="col-span-3">
@@ -190,7 +165,7 @@
           <!-- Git -->
           <div class="col-span-2 justify-self-center">
             <a href="https://git-scm.com" target="_blank">
-              <SvgGitLogoRect class="h-16" />
+              <img src="~/assets/home/gitLogoRect.svg" alt="Git Logo" class="h-16" />
             </a>
           </div>
           <div class="col-span-3">
@@ -217,15 +192,15 @@
         "<em class="font-serif"
           >I grasped the meaning of the greatest secret that human poetry and human thought and belief have to impart:
           The salvation of man is through love and in love.</em
-        >"<br />&emsp;— Victor Emil Frankl
+        >"<br />&emsp;— Victor Frankl
       </p>
       <p class="text-center">
-        There is no 'i' in team "<em class="font-serif">but there is in win.</em>"<br />&emsp;— Michael Jeffrey Jordan
+        There is no 'i' in team "<em class="font-serif">but there is in win.</em>"<br />&emsp;— Michael Jordan
       </p>
       <p class="text-center">
         "<em class="font-serif"
           >The people who are crazy enough to think they can change the world are the ones who do.</em
-        >"<br />&emsp;— Steven Paul Jobs
+        >"<br />&emsp;— Steve Jobs
       </p>
     </div>
 

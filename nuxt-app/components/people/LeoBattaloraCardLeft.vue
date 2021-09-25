@@ -13,20 +13,21 @@
       <div><strong>Role:</strong> CEO / Developer</div>
       <!-- Resume -->
       <div>
-        <strong>Resume/CV:</strong> <a href="/resume-battalora-leo-2021-09-17.pdf" target="_blank"><u>battalora-leo-2021-09-17.pdf</u></a>
+        <strong>Resume/CV:</strong>
+        <a href="/resume-battalora-leo-2021-09-17.pdf" target="_blank"><u>battalora-leo-2021-09-17.pdf</u></a>
       </div>
       <!-- Quote -->
       <div class="italic font-serif">"I hope to be decent at this whole software development thing one day."</div>
       <!-- Links -->
       <div class="flex pl-1 space-x-2 items-center">
         <a href="https://www.linkedin.com/in/leo6" target="_blank">
-          <SvgLinkedInLogoSquare class="h-8 hover:text-gray-200 duration-200" />
+          <IconsLinkedin class="h-8 hover:text-gray-200 duration-200" />
         </a>
         <a href="https://github.com/leo6liu" target="_blank">
-          <SvgGitHubLogoSquare class="h-9 hover:text-gray-200 duration-200" />
+          <IconsGithub class="h-9 hover:text-gray-200 duration-200" />
         </a>
         <a href="mailto:leo.battalora@gmail.com" target="_blank">
-          <SvgMailIcon class="h-9 hover:text-gray-200 duration-200" />
+          <IconsMail class="h-9 hover:text-gray-200 duration-200" />
         </a>
       </div>
     </div>

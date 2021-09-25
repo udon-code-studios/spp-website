@@ -20,13 +20,13 @@
       <!-- Links -->
       <div class="flex pl-1 space-x-2 items-center">
         <a href="https://www.linkedin.com/in/leo6" target="_blank">
-          <SvgLinkedInLogoSquare class="h-8 hover:text-gray-200 duration-200" />
+          <IconsLinkedin class="h-8 hover:text-gray-200 duration-200" />
         </a>
         <a href="https://github.com/leo6liu" target="_blank">
-          <SvgGitHubLogoSquare class="h-9 hover:text-gray-200 duration-200" />
+          <IconsGithub class="h-9 hover:text-gray-200 duration-200" />
         </a>
         <a href="mailto:leo.battalora@gmail.com" target="_blank">
-          <SvgMailIcon class="h-9 hover:text-gray-200 duration-200" />
+          <IconsMail class="h-9 hover:text-gray-200 duration-200" />
         </a>
       </div>
     </div>
