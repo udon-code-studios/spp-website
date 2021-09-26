@@ -1,6 +1,7 @@
 <template>
   <div class="flex flex-col w-64 bg-gray-800 text-gray-400">
     <div class="flex flex-col py-4 items-center">
+      <!-- Return Home Link-->
       <NuxtLink to="/" class="text-lg font-semibold">
         <div
           class="
@@ -16,7 +17,7 @@
             duration-200
           "
         >
-          <IconsArrowBack class="h-6" />
+          <IconsCottage class="h-6" />
           <p>SPP Home</p>
         </div>
       </NuxtLink>
