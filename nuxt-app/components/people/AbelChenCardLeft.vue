@@ -26,7 +26,7 @@
           <IconsGithub class="h-9 hover:text-gray-200 duration-200" />
         </a>
         <a href="mailto:leo.battalora@gmail.com" target="_blank">
-          <IconsMail class="h-9 hover:text-gray-200 duration-200" />
+          <IconsMailOutline class="h-9 hover:text-gray-200 duration-200" />
         </a>
       </div>
     </div>

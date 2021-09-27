@@ -21,7 +21,7 @@
           <IconsGithub class="h-9 hover:text-gray-900 duration-200" />
         </a>
         <a href="mailto:achen383@gatech.edu" target="_blank">
-          <IconsMail class="h-9 hover:text-gray-900 duration-200" />
+          <IconsMailOutline class="h-9 hover:text-gray-900 duration-200" />
         </a>
       </div>
     </div>

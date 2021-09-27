@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-64 bg-gray-800 text-gray-400">
+  <div class="flex flex-col w-1/6 bg-gray-800 text-gray-400">
     <div class="flex flex-col py-4 items-center">
       <!-- Return Home Link-->
       <NuxtLink to="/" class="text-lg font-semibold">
@@ -17,7 +17,7 @@
             duration-200
           "
         >
-          <IconsCottage class="h-6" />
+          <IconsCottageOutlined class="h-6" />
           <p>SPP Home</p>
         </div>
       </NuxtLink>
@@ -32,7 +32,7 @@
         <IconsGithub class="h-7 hover:text-gray-200 duration-200" />
       </a>
       <a href="mailto:subparprogramming@googlegroups.com" target="_blank">
-        <IconsMail class="h-7 hover:text-gray-200 duration-200" />
+        <IconsMailOutline class="h-7 hover:text-gray-200 duration-200" />
       </a>
     </div>
   </div>

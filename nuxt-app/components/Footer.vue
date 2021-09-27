@@ -7,7 +7,7 @@
       <IconsGithub class="h-7 hover:text-gray-200 duration-200" />
     </a>
     <a href="mailto:subparprogramming@googlegroups.com" target="_blank">
-      <IconsMail class="h-7 hover:text-gray-200 duration-200" />
+      <IconsMailOutline class="h-7 hover:text-gray-200 duration-200" />
     </a>
   </div>
 </template>
