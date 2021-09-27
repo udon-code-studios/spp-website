@@ -1,6 +1,6 @@
 <template>
   <div class="flex relative min-h-screen bg-gray-900 text-gray-400">
-    <BlogSideBar />
+    <SideBar></SideBar>
     <div class="w-3/4 pl-16 py-16 space-y-6 text-gray-400">
       <div class="flex justify-between items-end">
         <p class="text-4xl font-semibold font-serif">Blog.</p>
@@ -18,7 +18,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+
+};
 </script>
 
 <style>

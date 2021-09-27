@@ -23,6 +23,9 @@
       </NuxtLink>
     </div>
 
+    <!-- child elements go here -->
+    <slot />
+
     <!-- Footer Links -->
     <div class="absolute bottom-0 flex self-center py-8 space-x-3 bg-gray-800 text-gray-400">
       <a href="https://twitter.com/subpar_program" target="_blank">
@@ -37,3 +40,9 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: [],
+};
+</script>
