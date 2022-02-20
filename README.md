@@ -1,5 +1,7 @@
 # Subpar Programming Website
 
+NOTE: as of 2022/02/20 this site is now running on Google Cloud Run
+
 This multi-container app serves a server-side rendered HTTPS website using NGINX as the reverse proxy and SSL handshake provider. Certbot is used to automate the certificate renewall process with [Let's Encrypt CA](https://letsencrypt.org).
 
 The website should be 😅 live here: [subparprogramming.org](https://subparprogramming.org)
