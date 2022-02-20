@@ -3,7 +3,7 @@
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }} # project ID
