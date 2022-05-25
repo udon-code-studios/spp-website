@@ -6,34 +6,104 @@
     </p>
 
     <div class="grid grid-flow-row grid-cols-2 gap-8">
+      <!-- TheQuickBrownFox -->
       <a href="https://fox.subparprogramming.org" target="_blank">
         <div class="rounded-3xl overflow-hidden">
           <img src="~/assets/projects/tqbf.png" class="w-full rounded-t-3xl" />
-          <div class="bg-blue-100 text-gray-700 pt-3 p-4 flex justify-between">
-            <p class="font-bold">The Quick Brown Fox</p>
-            <div class="flex space-x-1">
-              <IconsReact class="h-6" />
-              <IconsTypescript class="h-6" />
-              <IconsTailwind class="h-6" />
-              <IconsNext class="h-6" />
+          <div
+            class="flex flex-col space-y-2 bg-blue-100 text-gray-700 pt-3 p-4"
+          >
+            <div class="flex justify-between">
+              <p class="font-bold">The Quick Brown Fox</p>
+              <div class="flex space-x-1">
+                <IconsReact class="h-6" />
+                <IconsTypescript class="h-6" />
+                <IconsTailwind class="h-6" />
+                <IconsNext class="h-6" />
+              </div>
             </div>
+            <p class="text-sm">
+              A stylish web app with the best hiragana and katakana charts you
+              will ever see.
+            </p>
           </div>
         </div>
       </a>
+
+      <!-- AlgoSim -->
       <a href="https://algosim.subparprogramming.org" target="_blank">
         <div class="rounded-3xl overflow-hidden">
           <img
             src="~/assets/projects/algosim.png"
             class="w-full rounded-t-3xl"
           />
-          <div class="bg-blue-100 text-gray-700 pt-3 p-4 flex justify-between">
-            <p class="font-bold">AlgoSim v1.0</p>
-            <div class="flex space-x-1">
-              <IconsGo class="h-6" />
-              <IconsReact class="h-6" />
-              <IconsTailwind class="h-6" />
-              <IconsNext class="h-6" />
+          <div
+            class="flex flex-col space-y-2 bg-blue-100 text-gray-700 pt-3 p-4"
+          >
+            <div class="flex justify-between">
+              <p class="font-bold">AlgoSim v1.0</p>
+              <div class="flex space-x-1">
+                <IconsGo class="h-6" />
+                <IconsReact class="h-6" />
+                <IconsTailwind class="h-6" />
+                <IconsNext class="h-6" />
+              </div>
             </div>
+            <p class="text-sm">
+              A web app which lets users simulate custom algorithms on
+              historical stock data.
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <!-- BibleDev -->
+      <a href="https://bible.subparprogramming.org" target="_blank">
+        <div class="rounded-3xl overflow-hidden col-span-2">
+          <img
+            src="~/assets/projects/bibledev.png"
+            class="w-full rounded-t-3xl"
+          />
+          <div
+            class="flex flex-col space-y-2 bg-blue-100 text-gray-700 pt-3 p-4"
+          >
+            <div class="flex justify-between">
+              <p class="font-bold">BibleDev</p>
+              <div class="flex space-x-1">
+                <IconsMongo class="h-6" />
+                <IconsReact class="h-6" />
+                <IconsTailwind class="h-6" />
+                <IconsNext class="h-6" />
+              </div>
+            </div>
+            <p class="text-sm">
+              A community-driven project to document the development history of
+              the Holy Bible.
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <!-- Tread -->
+      <a
+        href="https://www.figma.com/file/TWYV7xecdrEHwpqji7a0ZE/Daily-Workout-Design-Draft-2?node-id=0%3A1"
+        target="_blank"
+      >
+        <div class="rounded-3xl overflow-hidden col-span-2">
+          <img src="~/assets/projects/tread.png" class="w-full rounded-t-3xl" />
+          <div
+            class="flex flex-col space-y-2 bg-blue-100 text-gray-700 pt-3 p-4"
+          >
+            <div class="flex justify-between">
+              <p class="font-bold">Tread</p>
+              <div class="flex space-x-1">
+                <IconsFigma class="h-6" />
+              </div>
+            </div>
+            <p class="text-sm">
+              A mobile app design concept for a barefoot running transition app
+              called Tread.
+            </p>
           </div>
         </div>
       </a>
